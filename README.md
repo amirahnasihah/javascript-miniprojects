@@ -1,7 +1,7 @@
 # DEMO 🕹️
 
-👉 1.  [passenger counter url](https://counter-amirahnasihah.netlify.app/)
+👉 1.  [passenger counter app](https://passenger-count-amrhnshh.netlify.app)
 
-👉 2.  [calculator app url](https://calculator-amirahnasihah.netlify.app/)
+👉 2.  [calculator challenge app](https://calculator-challenge-amrhnshh.netlify.app/)
 
-👉 3.  [basketball challenge url](https://basketball-challenge-amrhnshh.netlify.app/)
+❌ 3.  [basketball scoreboard app](https://basketball-scoreboard-amrhnshh.netlify.app)
