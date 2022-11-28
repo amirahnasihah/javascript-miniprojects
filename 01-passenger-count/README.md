@@ -2,4 +2,5 @@
 
 # 🚀 Demo
 
-👉 Netlify: [passenger counter url](https://counter-amirahnasihah.netlify.app/)
+👉 Netlify: [passenger counter app](https://passenger-count-amrhnshh.netlify.app)
+
