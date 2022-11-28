@@ -2,4 +2,5 @@
 
 # 🚀 Demo
 
-👉 Netlify: [calculator app url](https://calculator-amirahnasihah.netlify.app/)
+👉 Netlify: [calculator challenge app](https://calculator-challenge-amrhnshh.netlify.app/)
+
