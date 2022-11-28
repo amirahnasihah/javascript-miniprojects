@@ -2,4 +2,4 @@
 
 # 🚀 Demo
 
-👉 Netlify: [basketball challenge url](https://basketball-challenge-amrhnshh.netlify.app/)
+❌ 3.  [basketball scoreboard app](https://basketball-scoreboard-amrhnshh.netlify.app)
