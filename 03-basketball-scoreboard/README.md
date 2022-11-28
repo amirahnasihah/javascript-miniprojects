@@ -2,4 +2,4 @@
 
 # 🚀 Demo
 
-❌ 3.  [basketball scoreboard app](https://basketball-scoreboard-amrhnshh.netlify.app)
+❌ Netlify: [basketball scoreboard app](https://basketball-scoreboard-amrhnshh.netlify.app)
