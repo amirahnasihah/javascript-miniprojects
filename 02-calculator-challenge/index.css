@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik');
+
+body {
+    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+    padding: 200px 0;
+    margin: 0;
+    text-align: center;
+    font-family: Rubik, -apple-system,sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+span {
+    border-bottom: 2px solid black;
+    padding: 4px;
+}
+
+button {
+    margin: 20px 0;
+    background: white;
+    color: black;
+    border: 1px solid black;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 5px 8px;
+}
