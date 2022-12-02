@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito:400,700");
+
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Nunito, system-ui, -apple-system;
+  /* background-image: url('https://us.123rf.com/450wm/natalt/natalt1202/natalt120200034/12447589-mesa-de-p%C3%B3quer-se-sent%C3%ADa-de-fondo-en-color-verde.jpg?ver=6'); */
+  background-color: #7700ee;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+
+.title {
+  color: yellow;
+  text-decoration: underline;
+}
+
+#message-element {
+  margin: 10px;
+  font-size: larger;
+}
+
+button {
+  color: #016f32;
+  font-weight: bolder;
+  width: 150px;
+  background-color: goldenrod;
+  border: 1px;
+  padding: 5px 0px;
+  display: block;
+  border-radius: 3px;
+  margin: 15px auto;
+  font-size: 16px;
+  cursor: pointer;
+}
