@@ -6,10 +6,12 @@
 
 ❌ 3.  [basketball scoreboard app](https://basketball-scoreboard-amrhnshh.netlify.app)
 
-👉 2.  []()
-
 ## CMD Line Games + JavaScript ⛓️
 
-👉 4.  [Tic-Tac-Toe cmd line](https://github.com/amirahnasihah/javascript-miniprojects/tree/main/04-tic-tac-toe)
+👉 4.  [tic-tac-toe cmd line](https://github.com/amirahnasihah/javascript-miniprojects/tree/main/04-tic-tac-toe)
 
-👉 5.  [Number Guess Game cmd line](https://github.com/amirahnasihah/javascript-miniprojects/tree/main/05-guessing-game)
+👉 5.  [number guess game cmd line](https://github.com/amirahnasihah/javascript-miniprojects/tree/main/05-guessing-game)
+
+# DEMO 🕹️
+
+👉 6.  [blackjack game](#)
