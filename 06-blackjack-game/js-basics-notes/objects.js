@@ -4,5 +4,7 @@
 
 let castle = {
 	name: "Live like a King in my Castle",
-	isSuper
+	isSuperhost: true,
+	price: 190,
+	rooms: []
 }
