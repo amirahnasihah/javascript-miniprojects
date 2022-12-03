@@ -15,7 +15,7 @@ let player = {
 }
 
 let playerEl = document.getElementById('player-el')
-playerEl.textContent = playerName + ': £' + playerChips
+playerEl.textContent = player.name + ': £' + player.chips
 
 console.log(cards); // to check if the card given earlier
 
