@@ -64,7 +64,9 @@ const renderGame = () => {
 
 const newCard = () => {
   // Only allow the player to get a new card if she IS alive and does NOT have Blackjack
-  if (isAlive === true && hasBlackJack === false)
+  if (isAlive === true && hasBlackJack === true) {
+  	
+  }
 
   console.log("Drawing a new card from the deck!");
   let card = getRandomCard();
