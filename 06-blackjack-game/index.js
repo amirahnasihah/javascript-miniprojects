@@ -11,8 +11,8 @@ let cardEl = document.getElementById("card-element");
 
 let playerName = 'Jane'
 let playerChips = 145
-
 let playerEl = document.getElementById('player-el')
+playerEl.textContent = playerName + ': £' + player
 
 console.log(cards); // to check if the card given earlier
 
