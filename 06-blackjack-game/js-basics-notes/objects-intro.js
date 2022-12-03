@@ -11,4 +11,4 @@ let course = {
 	tags: ["html", "css"]
 }
 
-console.log(course.length);
+console.log(course.tags);
