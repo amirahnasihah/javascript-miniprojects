@@ -43,10 +43,10 @@ footer {
   bottom: 0;
   width: 100%;
   background-color: purple;
-  color: black;
+  color: white;
   text-align: center;
 }
 
 footer a {
-  color: rgb(255, 255, 0);
+  color: yellow;
 }
