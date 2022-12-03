@@ -6,5 +6,5 @@ let castle = {
 	name: "Live like a King in my Castle",
 	isSuperhost: true,
 	price: 190,
-	rooms: []
+	rooms: ["4 guests", "1 bedroom", "2 beds"]
 }
