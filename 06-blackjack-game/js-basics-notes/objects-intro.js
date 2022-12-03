@@ -6,5 +6,9 @@ let course = {
 	lessons: 16,
 	creator: "Per Harald Borgen",
 	length: 63, // minutes
-	level: 2 // "0-3 -> Intermediate"
+	level: 2, // "0-3 -> Intermediate"
+	isFree: true,
+	tags: ["html", "css"]
 }
+
+console.log(course.length);
