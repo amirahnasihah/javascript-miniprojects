@@ -7,6 +7,7 @@ let castle = {
 	isSuperHost: true,
 	price: 190,
 	rooms: ["4 guests", "1 bedroom", "2 beds"],
+	images: ["img/castle01.png", "img/castle02.png"]
 	rating: 4
 }
 
