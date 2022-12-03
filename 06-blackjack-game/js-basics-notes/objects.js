@@ -11,4 +11,5 @@ let castle = {
 	rating: 4
 }
 
-console.log(castle.title + castle.price);
+console.log(castle.title)
+console.log(castle.price);
