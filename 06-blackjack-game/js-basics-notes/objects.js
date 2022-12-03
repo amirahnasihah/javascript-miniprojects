@@ -4,7 +4,7 @@
 
 let castle = {
 	title: "Live like a King in my Castle",
-	isSuperhost: true,
+	isSuperHost: true,
 	price: 190,
 	rooms: ["4 guests", "1 bedroom", "2 beds"],
 	rating: 4
