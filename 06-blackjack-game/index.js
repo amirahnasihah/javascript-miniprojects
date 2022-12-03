@@ -12,7 +12,7 @@ let cardEl = document.getElementById("card-element");
 let playerName = 'Jane'
 let playerChips = 145
 
-let playerEl = document.getElementById('play')
+let playerEl = document.getElementById('player-el1')
 
 console.log(cards); // to check if the card given earlier
 
