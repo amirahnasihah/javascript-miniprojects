@@ -3,5 +3,6 @@
 // Log out at least two of the keys using the dot notation
 
 let castle = {
-	
+	name: "Live like a King in my Castle",
+	isSuper
 }
