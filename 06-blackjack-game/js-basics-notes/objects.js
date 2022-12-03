@@ -9,3 +9,5 @@ let castle = {
 	rooms: ["4 guests", "1 bedroom", "2 beds"],
 	rating: 4
 }
+
+console.log(castle.name + castle.price);
