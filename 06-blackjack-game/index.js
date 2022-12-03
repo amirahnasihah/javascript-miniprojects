@@ -4,7 +4,6 @@ let player = {
 	name: "Jane",
 	chips: 145
 }
-
 let cards = []; // array - ordered list of items
 let sum = 0;
 let hasBlackJack = false; // initially, player dont have BlackJack
