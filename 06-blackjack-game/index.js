@@ -10,12 +10,10 @@ let sumEl = document.getElementById("sum-element");
 let cardEl = document.getElementById("card-element");
 
 let player = {
-	playerName: "Jane",
-	playerChips: 145
+	name: "Jane",
+	chips: 145
 }
 
-let playerName = 'Jane'
-let playerChips = 145
 let playerEl = document.getElementById('player-el')
 playerEl.textContent = playerName + ': £' + playerChips
 
