@@ -3,11 +3,11 @@
 // Log out at least two of the keys using the dot notation
 
 let castle = {
-	name: "Live like a King in my Castle",
+	title: "Live like a King in my Castle",
 	isSuperhost: true,
 	price: 190,
 	rooms: ["4 guests", "1 bedroom", "2 beds"],
 	rating: 4
 }
 
-console.log(castle.name + castle.price);
+console.log(castle.title + castle.price);
