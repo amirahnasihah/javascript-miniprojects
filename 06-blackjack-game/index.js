@@ -2,8 +2,8 @@
 
 let cards = []; // array - ordered list of items
 let sum = 0;
-let hasBlackJack = false; // player dont have BlackJack
-let isAlive = false; // player not yet starting
+let hasBlackJack = false; // initially, player dont have BlackJack
+let isAlive = false; // initially, player not yet starting
 let message = " ";
 let messageEl = document.getElementById("message-element");
 let sumEl = document.getElementById("sum-element");
@@ -64,6 +64,7 @@ const renderGame = () => {
 
 const newCard = () => {
   // Only allow the player to get a new card if she IS alive and does NOT have Blackjack
+  if (isAlive === true && hasBlackJack === false)
 
   console.log("Drawing a new card from the deck!");
   let card = getRandomCard();
