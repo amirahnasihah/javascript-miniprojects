@@ -14,4 +14,4 @@
 
 # DEMO 🕹️
 
-👉 6.  [blackjack game](#)
+👉 6.  [blackjack game](https://blackjack-amrhsnhh.netlify.app/)
