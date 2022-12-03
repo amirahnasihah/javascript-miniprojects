@@ -9,6 +9,11 @@ let messageEl = document.getElementById("message-element");
 let sumEl = document.getElementById("sum-element");
 let cardEl = document.getElementById("card-element");
 
+let playerName = 'Jane'
+let playerChips = 145
+
+let playerEl = document.getElementById('play')
+
 console.log(cards); // to check if the card given earlier
 
 // Make this function return a random number between 1 and 13
