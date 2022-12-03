@@ -40,8 +40,8 @@ What does Math.random() do?
 
 answer: it generates a random number between 0 and 1 (not inclusive of 1)
 
-# DEMO
+# DEMO 🕹️
 
-
+👉 6.  [blackjack game](https://blackjack-amrhsnhh.netlify.app/)
 
 
