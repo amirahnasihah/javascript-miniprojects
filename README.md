@@ -1,3 +1,5 @@
+> each project code divided into branches
+
 # DEMO 🕹️
 
 👉 1.  [passenger counter app](https://passenger-count-amrhnshh.netlify.app)
