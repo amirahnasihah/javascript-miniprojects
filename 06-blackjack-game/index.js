@@ -9,10 +9,15 @@ let messageEl = document.getElementById("message-element");
 let sumEl = document.getElementById("sum-element");
 let cardEl = document.getElementById("card-element");
 
+let player = {
+	playerName: "Jane",
+	playerChips: 145
+}
+
 let playerName = 'Jane'
 let playerChips = 145
 let playerEl = document.getElementById('player-el')
-playerEl.textContent = playerName + ': £' + player
+playerEl.textContent = playerName + ': £' + playerChips
 
 console.log(cards); // to check if the card given earlier
 
