@@ -5,6 +5,6 @@ let course = {
 	title: "Learn CSS Grid for free",
 	lessons: 16,
 	creator: "Per Harald Borgen",
-	length: ,
-	level: "Intermediate"
+	length: 63, // minutes
+	level: 2 // "0-3 -> Intermediate"
 }
