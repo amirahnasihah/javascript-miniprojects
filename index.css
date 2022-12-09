@@ -18,7 +18,7 @@ html {
   flex-direction: column;
   margin: auto;
   width: 90%;
-  height: 80vh;
+  height: 100%;
   background: #1F2937;
 }
 
@@ -36,8 +36,8 @@ h1 span {
   position: relative;
   width: 190px;
   height: 42px;
-  left: 52px;
-  top: 115px;
+  margin-left: 20px;
+  top: 100px;
 
   background: #10B981;
 
@@ -56,7 +56,7 @@ h1 span {
   position: relative;
   width: 354px;
   height: 80px;
-  left: 52px;
+  margin-left: 10px;
   top: 115px;
   text-align: left;
 
@@ -76,7 +76,7 @@ h1 span {
   position: relative;
   width: 372px;
   height: 28px;
-  left: 52px;
+  margin-left: 10px;
   top: 80px;
 
   /* text-xl/leading-7/font-normal */
@@ -105,7 +105,7 @@ h1 span {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 211px;
+  width: 180px;
   height: 39px;
   top: 200px;
   background: #273549;
@@ -134,8 +134,11 @@ h1 span {
 }
 
 .footer {
-  margin: auto;
-  padding: auto;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  color: white;
   text-align: center;
 }
 
