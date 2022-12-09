@@ -10,6 +10,7 @@
   - [render `<li>` elements with `innerHTML`](#render-li-elements-with-innerhtml)
   - [innerHTML](#innerhtml)
   - [render `<li>` elements with innerHTML 2](#render-li-elements-with-innerhtml-2)
+  - [use createElement() and append() instead of innerHTML](#use-createelement-and-append-instead-of-innerhtml)
 
 ## make input button work w/ onclick()
 
@@ -122,5 +123,22 @@ const buy = () => {
 for (let i = 0; i < myLeads.length; i++) {
   const element = myLeads[i];
   ulEl.innerHTML += "<li>" + element + "</li>";
+}
+```
+
+## use createElement() and append() instead of innerHTML
+
+different method!
+
+1. create element
+2. set text content
+3. append to ul
+
+```javascript
+for (let i = 0; i < myLeads.length; i++) {
+  ulEl.innerHTML += "<li>" + myLeads[i] + "</li>";
+  const li = document.createElement("li");
+  li.textContent = myLeads[i];
+  ulEl.append(li);
 }
 ```
