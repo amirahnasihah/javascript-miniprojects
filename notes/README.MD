@@ -28,3 +28,11 @@ inputBtn.addEventListener("click", () => {
 ```
 
 can remove `onclick="saveInput()"` on html file.
+
+## let and const
+
+`const` cannot be reassigned => constant
+
+**when to use let and const**
+
+If possible, use const. If not, use let.
