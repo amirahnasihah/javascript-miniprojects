@@ -9,21 +9,30 @@
 </head>
 
 <body>
-    <div class="container">
-        <h1 class="heading">Generate a <br><span>random password</span></h1>
-        <p class="supporting-text">Never use an insecure password again.</p><button class="btn"
-            onclick="generatePassword()">Generate passwords</button>
-        <div id="password-box">
-            <p id="password-one" class="pw-generated">1</p>
-            <p id="password-two" class="pw-generated">2</p>
-        </div>
-    </div>
     <div>
-        <footer class="footer">
-            2022 Password Generator
-            <a href="https://github.com/amirahnasihah/javascript-miniprojects/tree/random-password-generator">GitHub
-                Repo</a>
-        </footer>
+        <div id="darkmode-toggle">
+            <p>Dark Mode</p>
+            <label class="switch">
+                <input type="checkbox" checked onclick="changeLightDarkTheme()" /><span class="slider round"></span>
+            </label>
+        </div>
+        <main class="container">
+            <h1 class="heading">Generate a <br><span>random password</span></h1>
+            <p class="supporting-text">Never use an insecure password again.</p><button class="btn"
+                onclick="generatePassword()">Generate passwords</button>
+            <div id="password-box">
+                <p id="password-one" class="pw-generated">1</p>
+                <p id="password-two" class="pw-generated">2</p>
+            </div>
+
+        </main>
+        <div>
+            <footer class="footer">
+                2022 Password Generator
+                <a href="https://github.com/amirahnasihah/javascript-miniprojects/tree/random-password-generator">GitHub
+                    Repo</a>
+            </footer>
+        </div>
     </div>
 
     <script src="index.js"></script>

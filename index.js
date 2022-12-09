@@ -106,6 +106,26 @@ const generatePassword = () => {
     password[0] += characters[randomIndexOne];
     password[1] += characters[randomIndexTwo];
   }
+
   passwordOneEl.textContent = password[0];
   passwordTwoEl.textContent = password[1];
 };
+
+// DARK MODE
+let isDarkMode = true;
+
+function changeLightDarkTheme() {
+  if (isDarkMode) {
+    isDarkMode = false;
+    document.body.style.background = "#1C1C1C";
+    document.querySelector("h1").style.color = "#1C1C1C";
+    document.querySelector(".supporting-text").style.color = "#1F2937";
+    document.querySelector(".container").style.backgroundColor = "#ECFDF5";
+  } else {
+    isDarkMode = true;
+    document.body.style.background = "#1C1C1C";
+    document.querySelector("h1").style.color = "white";
+    document.querySelector(".supporting-text").style.color = "#D5D4D8";
+    document.querySelector(".container").style.backgroundColor = "#1F2937";
+  }
+}
