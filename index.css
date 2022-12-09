@@ -1,4 +1,8 @@
-@import url("https://fonts.googleapis.com/css?family=Rubik");
+@import url("https://fonts.googleapis.com/css?family=Nunito|Rubik");
+
+* {
+  font-family: Rubik;
+}
 
 body {
   margin: 0;
