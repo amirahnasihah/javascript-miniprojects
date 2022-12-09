@@ -1,18 +1,11 @@
-> each project code divided into branches
-
-# Sorting Fruits - Practice 💪
-
-👉 [sorting fruits](#)
-
-```javascript
 let fruit = ["🍎", "🍊", "🍎", "🍎", "🍊", "🍎", "🍊", "🍎"];
 let appleShelf = document.getElementById("apple-shelf");
 let orangeShelf = document.getElementById("orange-shelf");
 
-// a function that puts the apples onto the appleShelf
+// Create a function that puts the apples onto the appleShelf
 // and the oranges onto the orangeShelf. Use a for loop,
 // a conditional statement, and the textContent property.
-// hint: treat emojis as normal string.
+// treat emojis as normal string.
 
 const sortFruits = () => {
   for (let i = 0; i < fruit.length; i++) {
@@ -32,10 +25,3 @@ sortFruits();
 // `+=` => to attach the fruit to browser.
 // `=` => just show one fruit only
 // console.log for debug; not show on browser
-```
-
-Exercise to use a for loop, a conditional statement, and the textContent property.
-
-<hr/>
-
-> each project code divided into branches. go check them too!
