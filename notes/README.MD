@@ -1,5 +1,13 @@
 # Chrome Extension
 
+- [Chrome Extension](#chrome-extension)
+  - [make input button work w/ onclick()](#make-input-button-work-w-onclick)
+  - [refactor to addEventListener()](#refactor-to-addeventlistener)
+  - [let and const](#let-and-const)
+  - [push the value from input field](#push-the-value-from-input-field)
+  - [use for loop to log out leads](#use-for-loop-to-log-out-leads)
+  - [render the leads in ul list](#render-the-leads-in-ul-list)
+
 ## make input button work w/ onclick()
 
 this way of writing event listeners, where we define a function and trigger it via the onClick attribute in the HTML.
@@ -61,5 +69,16 @@ Log out ALL the items in the myLeads array using a for loop
 for (let i = 0; i < myLeads.length; i++) {
   const element = myLeads[i];
   console.log(element);
+}
+```
+
+## render the leads in ul list
+
+Render the leads in the unordered list using ulEl.textContent
+
+```javascript
+for (let i = 0; i < myLeads.length; i++) {
+  const element = myLeads[i];
+  ulEl.textContent += element + " "; // with `+=` we render all items
 }
 ```
