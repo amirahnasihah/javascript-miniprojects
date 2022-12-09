@@ -1,6 +1,33 @@
+@import url("https://fonts.googleapis.com/css?family=Rubik");
+
 body {
-  padding: 40px;
-  background: whitesmoke;
-  text-align: center;
+  margin: 0;
+  padding: 10px;
+  font-family: Rubik, Helvetica, sans-serif;
 }
 
+/*
+Green color -> #5f9341
+*/
+
+input {
+  /* 100% + 10px + 10px */
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  border: #5f9341 1px solid;
+  height: 40px;
+  font-weight: bold;
+  border-radius: 2px;
+
+}
+
+button {
+  background-color: #5f9341;
+  border: none;
+  color: white;
+  margin-top: 4px;
+  padding: 10px 20px;
+  border-radius: 3px;
+  cursor: pointer;
+}
