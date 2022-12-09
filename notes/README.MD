@@ -9,6 +9,7 @@
   - [render the leads in ul list](#render-the-leads-in-ul-list)
   - [render `<li>` elements with `innerHTML`](#render-li-elements-with-innerhtml)
   - [innerHTML](#innerhtml)
+  - [render `<li>` elements with innerHTML 2](#render-li-elements-with-innerhtml-2)
 
 ## make input button work w/ onclick()
 
@@ -100,3 +101,26 @@ for (let i = 0; i < myLeads.length; i++) {
 ```
 
 ## innerHTML
+
+When clicked, render a paragraph under the button (in the container) that says "Thank you for buying!"
+
+- if only `=` symbol we just clear out the innerHTML bcs we want it to equal to that value only.
+- to attach, add `+=` symbol
+
+```javascript
+const container = document.getElementById("container")
+container.innerHTML = "<button onclick='buy()'>Buy!</button>"
+
+const buy = () => {    
+    container.innerHTML += "<p>Thank you for buying!</p>"
+}
+```
+
+## render `<li>` elements with innerHTML 2
+
+```javascript
+for (let i = 0; i < myLeads.length; i++) {
+  const element = myLeads[i];
+  ulEl.innerHTML += "<li>" + element + "</li>";
+}
+```
