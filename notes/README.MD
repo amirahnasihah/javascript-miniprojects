@@ -7,6 +7,7 @@
   - [push the value from input field](#push-the-value-from-input-field)
   - [use for loop to log out leads](#use-for-loop-to-log-out-leads)
   - [render the leads in ul list](#render-the-leads-in-ul-list)
+  - [render `<li>` elements with `innerHTML`](#render-li-elements-with-innerhtml)
 
 ## make input button work w/ onclick()
 
@@ -80,5 +81,19 @@ Render the leads in the unordered list using ulEl.textContent
 for (let i = 0; i < myLeads.length; i++) {
   const element = myLeads[i];
   ulEl.textContent += element + " "; // with `+=` we render all items
+}
+```
+
+## render `<li>` elements with `innerHTML`
+
+The innerHTML property sets or returns the HTML content (inner HTML) of an element.
+
+```javascript
+for (let i = 0; i < myLeads.length; i++) {
+  // render the list
+  ulEl.innerHTML += "<li>" + myLeads[i] + "</li>";
+
+  // concat the list as a string
+  ulEl.textContent += "<li>" + myLeads[i] + "</li>";
 }
 ```
