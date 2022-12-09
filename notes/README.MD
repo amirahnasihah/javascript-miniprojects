@@ -8,6 +8,7 @@
   - [use for loop to log out leads](#use-for-loop-to-log-out-leads)
   - [render the leads in ul list](#render-the-leads-in-ul-list)
   - [render `<li>` elements with `innerHTML`](#render-li-elements-with-innerhtml)
+  - [innerHTML](#innerhtml)
 
 ## make input button work w/ onclick()
 
@@ -97,3 +98,5 @@ for (let i = 0; i < myLeads.length; i++) {
   ulEl.textContent += "<li>" + myLeads[i] + "</li>";
 }
 ```
+
+## innerHTML
