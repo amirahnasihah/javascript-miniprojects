@@ -18,8 +18,8 @@ html {
   flex-direction: column;
   margin: auto;
   width: 90%;
-  height: 100%;
-  background: #1F2937;
+  height: auto;
+  background-color: #1F2937;
 }
 
 h1 span {
@@ -138,6 +138,7 @@ h1 span {
   left: 0;
   top: 0;
   width: 100%;
+  background-color: #1C1C1C;
   color: white;
   text-align: center;
 }
