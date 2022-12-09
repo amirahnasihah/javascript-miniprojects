@@ -2,24 +2,22 @@
 
 > each project code divided into branches.
 
-# DEMO 🕹️
+# DEMO - Password Generator 🕹️
 
-👉 1.  [passenger counter app](https://passenger-count-amrhnshh.netlify.app)
+👉 [random password generator](https://blackjack-amrhsnhh.netlify.app/)
 
-👉 2.  [calculator challenge app](https://calculator-challenge-amrhnshh.netlify.app/)
+## todo
 
-❌ 3.  [basketball scoreboard app](https://basketball-scoreboard-amrhnshh.netlify.app)
+- generate two random passwords when the user clicks on the button.
+- each password should be 15 characters long.
 
-## CMD Line Games + JavaScript ⛓️
+### above and beyond
 
-👉 4.  [tic-tac-toe cmd line](https://github.com/amirahnasihah/javascript-miniprojects/tree/main/04-tic-tac-toe)
+- ability to set password length
+- add "copy-on-click"
+- toggle "symbols" and "numbers" on/off
 
-👉 5.  [number guess game cmd line](https://github.com/amirahnasihah/javascript-miniprojects/tree/main/05-guessing-game)
+#### hint
 
-# DEMO 🕹️
-
-👉 6.  [blackjack game](https://blackjack-amrhsnhh.netlify.app/)
-
-👉 7.  [random emoji fighter](https://blackjack-amrhsnhh.netlify.app/)
-
-👉 8.  [random password generator](https://blackjack-amrhsnhh.netlify.app/)
+- How to reset password when button is clicked again ? instead of generate a second one and have 30 characters.
+- initialize the pwstring="" at the beginning of the function that concatenates the pw.
