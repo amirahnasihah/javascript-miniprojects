@@ -1,19 +1,27 @@
 * {
-	margin: 0;
-	padding: 0;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: orangered;
 }
 
 .container {
-	display: flex;
-	justify-content: space-around;
+  display: flex;
+  justify-content: space-around;
 }
 
 footer {
-	position: fixed;
+  position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color:antiquewhite;
+  background-color: antiquewhite;
   color: black;
   text-align: center;
+}
+
+footer a {
+  color: darkblue;
 }
