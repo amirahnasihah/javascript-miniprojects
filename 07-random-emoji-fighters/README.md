@@ -1,3 +1,0 @@
-# Demo 🕹️
-
-👉 [random emoji fighters](#)

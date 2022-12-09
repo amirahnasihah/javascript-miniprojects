@@ -1,4 +1,6 @@
-> each project code divided into branches
+### 👇
+
+> each project code divided into branches.
 
 # DEMO 🕹️
 
@@ -17,3 +19,7 @@
 # DEMO 🕹️
 
 👉 6.  [blackjack game](https://blackjack-amrhsnhh.netlify.app/)
+
+👉 7.  [random emoji fighter](https://blackjack-amrhsnhh.netlify.app/)
+
+👉 8.  [random password generator](https://blackjack-amrhsnhh.netlify.app/)
