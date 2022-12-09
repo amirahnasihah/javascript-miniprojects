@@ -4,18 +4,18 @@
 
 # DEMO - Password Generator 🕹️
 
-👉 [random password generator](https://blackjack-amrhsnhh.netlify.app/)
+👉 [random password generator](#)
 
 ## todo
 
-- generate two random passwords when the user clicks on the button.
-- each password should be 15 characters long.
+- generate two random passwords when the user clicks on the button.✅
+- each password should be 15 characters long.✅
 
 ### above and beyond
 
-- ability to set password length
-- add "copy-on-click"
-- toggle "symbols" and "numbers" on/off
+- ability to set password length.
+- add "copy-on-click".
+- toggle "symbols" and "numbers" on/off.
 
 #### hint
 
