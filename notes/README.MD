@@ -54,3 +54,12 @@ inputBtn.addEventListener("click", () => {
 });
 ```
 ## use for loop to log out leads
+
+Log out ALL the items in the myLeads array using a for loop
+
+```javascript
+for (let i = 0; i < myLeads.length; i++) {
+  const element = myLeads[i];
+  console.log(element);
+}
+```
