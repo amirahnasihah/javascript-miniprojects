@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,21 +9,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="index.css">
   </head>
+
   <body>
     <h1 class="title">Blackjack</h1>
     <p id="message-element">Want to play around?</p>
-    
+
     <p id="card-element">Cards:</p>
-    
+
     <p id="sum-element">Sum:</p>
-    
+
     <button onclick="startGame()">START GAME</button>
     <button onclick="newCard()">NEW CARD</button>
     <p id='player-el'>Name: £chips</p>
-    <footer>GitHub repo 👉
-      <a href="https://github.com/amirahnasihah/javascript-miniprojects"> javascript-miniprojects</a>
+
+    <p class="logic-game">Blackjack: sum less 21 → happy | equal 21 → win | more 21 → lost <br> <br>
+      In Blackjack, the Jack, Queen, King are worth 10. The Ace is worth 11.
+
+      We have 13 cards starting from the Ace [1]
+
+      Ace = 11 || 1; Jack = 11; Queen = 12; King = 13
+      Other card number considered random.
+    </p>
+    <footer>Blackjack Game 👉
+      <a href="https://github.com/amirahnasihah/javascript-miniprojects/tree/blackjack-game">GitHub Repo</a>
     </footer>
 
     <script src="index.js" async defer></script>
   </body>
+
 </html>

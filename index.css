@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Nunito:400,700");
 
-body, html {
+body,
+html {
   margin: 0;
   padding: 0;
   font-family: Nunito, system-ui, -apple-system;
@@ -49,4 +50,18 @@ footer {
 
 footer a {
   color: yellow;
+}
+
+.logic-game {
+  margin: 20px;
+  padding: 10px;
+  text-align: left;
+  color: antiquewhite;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+  border-top: 1px solid antiquewhite;
+}
+
+#player-el {
+  margin-bottom: 150px;
 }

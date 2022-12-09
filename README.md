@@ -1,3 +1,5 @@
-# DEMO 🕹️
+# DEMO - Blackjack 🕹️
 
-👉 6.  [blackjack game](https://blackjack-amrhsnhh.netlify.app/)
+👉 [blackjack game](https://blackjack-amrhsnhh.netlify.app/)
+
+> each project code divided into branches. go check them too!
