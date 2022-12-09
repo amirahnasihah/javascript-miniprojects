@@ -1,8 +1,8 @@
-> each project code divided into branches. go check them too!
-
 # DEMO - Password Generator 🕹️
 
 👉 [random password generator](#)
+
+> each project code divided into branches. go check them too!
 
 ## todo
 
