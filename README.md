@@ -1,6 +1,6 @@
 # DEMO - Password Generator 🕹️
 
-👉 [random password generator](#)
+👉 [random password generator](https://password-generator-amrhnshh.netlify.app/)
 
 > each project code divided into branches. go check them too!
 
@@ -8,6 +8,7 @@
 
 - generate two random passwords when the user clicks on the button.✅
 - each password should be 15 characters long.✅
+- dark mode.✅
 
 ### above and beyond
 
@@ -19,3 +20,5 @@
 
 - How to reset password when button is clicked again ? instead of generate a second one and have 30 characters.
 - initialize the pwstring="" at the beginning of the function that concatenates the pw.
+
+> each project code divided into branches. go check them too!
