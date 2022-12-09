@@ -8,7 +8,7 @@ body {
   color: #e98a1d;
   border: 5px solid black;
   border-radius: 5px;
-
+  background-color: wheat;
 }
 
 h1 {
@@ -39,6 +39,19 @@ button {
 }
 
 button:hover {
-  background-color: yellowgreen; /* Green */
+  background-color: yellowgreen;
+  /* Green */
   color: white;
+}
+
+footer {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 50px;
+  margin-top: 50px;
+}
+
+footer a {
+  color: black;
 }
