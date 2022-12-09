@@ -18,7 +18,7 @@
 
 👉 6.  [blackjack game](https://blackjack-amrhsnhh.netlify.app/)
 
-👉 7.  [random emoji fighter](https://amirahnasihah.github.io/javascript-miniprojects/)
+👉 7.  [random emoji fighter](https://emoji-fighters-amrhnshh.netlify.app/)
 
 👉 8.  [random password generator](https://blackjack-amrhsnhh.netlify.app/)
 
