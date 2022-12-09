@@ -1,6 +1,4 @@
-### 👇
-
-> each project code divided into branches.
+> each project code divided into branches
 
 # DEMO 🕹️
 
@@ -23,3 +21,8 @@
 👉 7.  [random emoji fighter](https://amirahnasihah.github.io/javascript-miniprojects/)
 
 👉 8.  [random password generator](https://blackjack-amrhsnhh.netlify.app/)
+
+
+<hr/>
+
+> each project code divided into branches. go check them too!
