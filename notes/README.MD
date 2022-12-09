@@ -13,7 +13,10 @@ const saveInput = () => {
 
 ##  refactor to addEventListener()
 
+a different technique, by first grabbing a ID of the element, we want to hook an event listener onto.
 
+first parameter is = specify what kind of event I want to listen for.
+second parameter = to define what are we going to do when someone clicks on this input in order to invoke that function, where we write it to the function. this function executed when the user clicks on this input button.
 
 ```javascript
 // Log out "Button clicked!" when the user clicks the "SAVE INPUT" button

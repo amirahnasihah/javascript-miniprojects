@@ -1,5 +1,5 @@
-// Log out "Button clicked!" when the user clicks the "SAVE INPUT" button
-// Refactor to addEventListener
+const myLeads = [];
+const inputEl = document.getElementById("input-el");
 
 let inputBtn = document.getElementById("input-btn");
 
