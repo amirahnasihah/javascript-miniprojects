@@ -11,6 +11,7 @@
   - [innerHTML](#innerhtml)
   - [render `<li>` elements with innerHTML 2](#render-li-elements-with-innerhtml-2)
   - [use createElement() and append() instead of innerHTML](#use-createelement-and-append-instead-of-innerhtml)
+  - [improve performance](#improve-performance)
 
 ## make input button work w/ onclick()
 
@@ -136,9 +137,36 @@ different method!
 
 ```javascript
 for (let i = 0; i < myLeads.length; i++) {
-  ulEl.innerHTML += "<li>" + myLeads[i] + "</li>";
+  // ulEl.innerHTML += "<li>" + myLeads[i] + "</li>";
+
   const li = document.createElement("li");
   li.textContent = myLeads[i];
   ulEl.append(li);
 }
 ```
+
+## improve performance
+
+1. Create a variable, listItems, to hold all the HTML for the list items
+2. Assign it to an empty string to begin with
+3. Add the item to the listItems variable instead of the ulEl.innerHTML => will running 3 times as in the myLeads array.
+4. Render the listItems inside the unordered list using ulEl.innerHTML
+
+```javascript
+let listItems = " ";
+
+for (let i = 0; i < myLeads.length; i++) {
+  listItems += "<li>" + myLeads[i] + "</li>";
+  console.log(listItems);
+}
+
+ulEl.innerHTML = listItems;
+```
+
+- use `let` because we want to reassign the empty string to the new list
+
+If struggling to remember as to whether or not the performance way was to do `.innerHTML` inside of the loop or outside of the loop, you can remember this sentence DOM manipulation comes with a cost.
+
+> DOM manipulation comes with a cost
+>
+> if it comes with a cost is it best to manipulate the DOM, namely, using innerHTML three times inside of the for loop? Or is it best to just do it one time outside of the for loop? Well, if it has a cost, you'd prefer to do it one time than three times. So just remember that DOM manipulation has a cost and look at your code.
