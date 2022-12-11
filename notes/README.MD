@@ -14,6 +14,8 @@
   - [improve performance](#improve-performance)
   - [create the render function, renderLeads()](#create-the-render-function-renderleads)
   - [clear the iinput field](#clear-the-iinput-field)
+  - [add `<a>` tag](#add-a-tag)
+  - [template string](#template-string)
 
 ## make input button work w/ onclick()
 
@@ -227,3 +229,26 @@ inputBtn.addEventListener("click", () => {
   renderLeads();
 });
 ```
+
+## add `<a>` tag
+
+since we try build chrome extension that save the website link.
+
+the arrayleads need to be in URL format.
+
+`<a href=""></a>`
+
+```javascript
+const renderLeads = () => {
+  let listItems = " ";
+  for (let i = 0; i < myLeads.length; i++) {
+    listItems +=
+      "<li><a href='" + myLeads[i] + "' target='_blank'>" + myLeads[i] + "</a></li>";
+    // console.log(listItems);
+  }
+  ulEl.innerHTML = listItems;
+};
+```
+
+## template string
+
