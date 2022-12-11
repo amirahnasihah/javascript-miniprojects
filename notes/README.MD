@@ -12,6 +12,7 @@
   - [render `<li>` elements with innerHTML 2](#render-li-elements-with-innerhtml-2)
   - [use createElement() and append() instead of innerHTML](#use-createelement-and-append-instead-of-innerhtml)
   - [improve performance](#improve-performance)
+  - [create the render function, renderLeads()](#create-the-render-function-renderleads)
 
 ## make input button work w/ onclick()
 
@@ -170,3 +171,33 @@ If struggling to remember as to whether or not the performance way was to do `.i
 > DOM manipulation comes with a cost
 >
 > if it comes with a cost is it best to manipulate the DOM, namely, using innerHTML three times inside of the for loop? Or is it best to just do it one time outside of the for loop? Well, if it has a cost, you'd prefer to do it one time than three times. So just remember that DOM manipulation has a cost and look at your code.
+
+## create the render function, renderLeads()
+
+1. Wrap the code below in a renderLeads() function
+2. Call the renderLeads() function
+
+```javascript
+let myLeads = ["www.awesomelead.com", "www.epiclead.com", "www.greatlead.com"];
+const inputEl = document.getElementById("input-el");
+const inputBtn = document.getElementById("input-btn");
+const ulEl = document.getElementById("ul-el");
+
+inputBtn.addEventListener("click", () => {
+  myLeads.push(inputEl.value);
+  // console.log(myLeads);
+  // 2. Call the renderLeads() function
+  renderLeads();
+});
+
+// 1. Wrap the code below in a renderLeads() function
+const renderLeads = () => {
+  let listItems = " ";
+  for (let i = 0; i < myLeads.length; i++) {
+    listItems += "<li>" + myLeads[i] + "</li>";
+    // console.log(listItems);
+  }
+  ulEl.innerHTML = listItems;
+};
+
+```
