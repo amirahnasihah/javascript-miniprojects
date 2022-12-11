@@ -13,6 +13,7 @@
   - [use createElement() and append() instead of innerHTML](#use-createelement-and-append-instead-of-innerhtml)
   - [improve performance](#improve-performance)
   - [create the render function, renderLeads()](#create-the-render-function-renderleads)
+  - [clear the iinput field](#clear-the-iinput-field)
 
 ## make input button work w/ onclick()
 
@@ -199,5 +200,30 @@ const renderLeads = () => {
   }
   ulEl.innerHTML = listItems;
 };
+```
 
+## clear the iinput field
+
+Google how? -> clear input value with javascript
+
+sauce: [stackoverflow](https://stackoverflow.com/questions/17237772/html-how-to-clear-input-using-javascript) | [w3schools](https://www.w3schools.com/howto/howto_html_clear_input.asp)
+
+> the use of `target.value`
+
+EXAMPLE:
+
+```html
+<button onclick="document.getElementById('myInput').value = ''">Clear input field</button>
+<input type="text" value="Blabla" id="myInput">
+```
+
+Clear out the input field when clicked Save Input button
+
+```javascript
+inputBtn.addEventListener("click", () => {
+  myLeads.push(inputEl.value);
+  // Clear out the input field when clicked save input button
+  inputEl.value = "";
+  renderLeads();
+});
 ```

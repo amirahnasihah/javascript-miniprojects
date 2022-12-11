@@ -6,11 +6,11 @@ const ulEl = document.getElementById("ul-el");
 inputBtn.addEventListener("click", () => {
   myLeads.push(inputEl.value);
   // console.log(myLeads);
-  // 2. Call the renderLeads() function
+  // Clear out the input field when clicked save input button
+  inputEl.value = "";
   renderLeads();
 });
 
-// 1. Wrap the code below in a renderLeads() function
 const renderLeads = () => {
   let listItems = " ";
   for (let i = 0; i < myLeads.length; i++) {
