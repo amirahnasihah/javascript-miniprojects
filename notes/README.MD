@@ -19,6 +19,7 @@
   - [template strings more](#template-strings-more)
   - [template strings on multiple lines](#template-strings-on-multiple-lines)
   - [refactor our app](#refactor-our-app)
+  - [preparing the deployment](#preparing-the-deployment)
 
 ## make input button work w/ onclick()
 
@@ -325,3 +326,6 @@ Refactor the code to use a template string.
 ```javascript
 listItems += `<li><a target='_blank' href='${myLeads[i]}'> ${myLeads[i]} </a></li>`;
 ```
+
+## preparing the deployment
+
