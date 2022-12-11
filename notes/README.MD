@@ -18,6 +18,7 @@
   - [template string](#template-string)
   - [template strings more](#template-strings-more)
   - [template strings on multiple lines](#template-strings-on-multiple-lines)
+  - [refactor our app](#refactor-our-app)
 
 ## make input button work w/ onclick()
 
@@ -274,7 +275,7 @@ benefits:
 the `$` sign = JavaScript expression. This is how you kinda escape out of the string, and put a JavaScript expression into the string. can replace single quotes with double quotes.
 
 ```javascript
-listItems += `<li><a target="_blank" href="${myLeads[i]}"> + myLeads[i] + </a></li>`;
+listItems += `<li><a target='_blank' href='${myLeads[i]}'> + myLeads[i] + </a></li>`;
 ```
 
 ## template strings more
@@ -315,4 +316,12 @@ console:
 Hey James!
 How is it going? Cheers
 John Doe Mozart
+```
+
+## refactor our app
+
+Refactor the code to use a template string.
+
+```javascript
+listItems += `<li><a target='_blank' href='${myLeads[i]}'> ${myLeads[i]} </a></li>`;
 ```
