@@ -16,6 +16,8 @@
   - [clear the iinput field](#clear-the-iinput-field)
   - [add `<a>` tag](#add-a-tag)
   - [template string](#template-string)
+  - [template strings more](#template-strings-more)
+  - [template strings on multiple lines](#template-strings-on-multiple-lines)
 
 ## make input button work w/ onclick()
 
@@ -275,3 +277,42 @@ the `$` sign = JavaScript expression. This is how you kinda escape out of the st
 listItems += `<li><a target="_blank" href="${myLeads[i]}"> + myLeads[i] + </a></li>`;
 ```
 
+## template strings more
+
+Refactor the email string to use template strings.
+
+```javascript
+const recipient = "James";
+const sender = "John";
+
+const email = `Hey ${recipient}! How is it going? Cheers ${sender}`;
+
+console.log(email); // Hey James! How is it going? Cheers John
+```
+
+## template strings on multiple lines
+
+Break the email string into multiple lines
+
+```javascript
+const recipient = "James";
+const sender = "John Doe Mozart";
+
+const email = `Hey ${recipient}!
+How is it going? Cheers
+${sender}`;
+
+console.log(email);
+
+// Hey James!
+// How is it going? Cheers
+// John Doe Mozart
+```
+
+console:
+
+```bash
+Hey James!
+How is it going? Cheers
+John Doe Mozart
+```
