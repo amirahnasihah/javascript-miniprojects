@@ -234,7 +234,7 @@ inputBtn.addEventListener("click", () => {
 
 since we try build chrome extension that save the website link.
 
-the arrayleads need to be in URL format.
+the arrayleads need to be in URL format. {complicated}
 
 `<a href=""></a>`
 
@@ -251,4 +251,27 @@ const renderLeads = () => {
 ```
 
 ## template string
+
+to simplify it and avoid using these mix of single and double quotes and all of this plus signs above. template string will solve this.
+
+> template strings, or template literals
+
+the way you turn a normal string into template strings by replacing the quotes that wrap the string with backticks (`) instead
+
+> template string: use back quote/ back tick ( ` )
+
+```javascript
+listItems += `"<li><a target='_blank' href='" + myLeads[i] + "'>" + myLeads[i] + "</a></li>"`
+```
+
+this is no longer a JavaScript expression. It's just a string.
+
+benefits:
+- can break it into multiple lines
+
+the `$` sign = JavaScript expression. This is how you kinda escape out of the string, and put a JavaScript expression into the string. can replace single quotes with double quotes.
+
+```javascript
+listItems += `<li><a target="_blank" href="${myLeads[i]}"> + myLeads[i] + </a></li>`;
+```
 
