@@ -69,6 +69,13 @@
     flex-direction: column;
   }
 
+  .heading,
+  .supporting-text,
+  .btn {
+    display: block;
+    margin: 10px;
+  }
+
   .password-box {
     width: 100%;
     display: flex;
