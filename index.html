@@ -6,6 +6,8 @@
     <title>Password Generator</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="index.css">
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+
 </head>
 
 <body>
@@ -20,9 +22,11 @@
             <h1 class="heading">Generate a <br><span>random password</span></h1>
             <p class="supporting-text">Never use an insecure password again.</p><button class="btn"
                 onclick="generatePassword()">Generate passwords</button>
-            <div id="password-box">
-                <p id="password-one" class="pw-generated">1</p>
-                <p id="password-two" class="pw-generated">2</p>
+            <div class="password-box">
+                <div class="password-box">
+                    <p id="password-one" class="pw-generated">1</p>
+                    <p id="password-two" class="pw-generated">2</p>
+                </div>
             </div>
 
         </main>
