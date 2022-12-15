@@ -42,6 +42,7 @@
   /* make the password boxes stack on top of each other */
   .password-box {
     box-sizing: border-box;
+    width: auto;
     flex-direction: flex;
     margin: 30px;
   }
