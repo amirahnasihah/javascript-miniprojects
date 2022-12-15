@@ -1,5 +1,62 @@
 @import url("https://fonts.googleapis.com/css?family=Karla|Inter:regular");
 
+@media only screen and (max-width: 600px) {
+
+  /* add your mobile-specific styles here */
+  .container {
+    width: 100%;
+    height: auto;
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* stack the heading, supporting text, and button on top of each other */
+  .heading,
+  .supporting-text,
+  .btn {
+    display: block;
+    margin-left: 10px;
+  }
+
+  .heading {
+    top: 115px;
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: -0.025em;
+  }
+
+  /* make the button take up the full width of the container */
+  .btn {
+    width: auto;
+    height: 40px;
+    margin: 20px;
+    background: #10B981;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+  }
+
+  /* make the password boxes stack on top of each other */
+  #password-box {
+    flex-direction: column;
+    margin: 30px;
+  }
+
+  /* make the password-generated box take up the full width of the container */
+  .pw-generated {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 40px;
+    background: #273549;
+    border-radius: 6px;
+  }
+}
+
 body,
 html {
   margin: 0;
@@ -12,38 +69,8 @@ html {
   height: 100%;
 }
 
-/* unpopulated-state */
-.container {
-  display: flex;
-  flex-direction: column;
-  margin: auto;
-  width: 90%;
-  height: auto;
-  background-color: #1F2937;
-}
-
 h1 span {
   color: #4ADF86;
-}
-
-/* Button */
-.btn {
-  /* Auto layout */
-  justify-content: center;
-  align-items: center;
-  gap: 12px;
-
-  position: relative;
-  width: 190px;
-  height: 42px;
-  margin-left: 20px;
-  top: 100px;
-
-  background: #10B981;
-
-  /* shadow/sm */
-  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
-  border-radius: 6px;
 }
 
 .btn:hover {
@@ -51,75 +78,30 @@ h1 span {
   cursor: pointer;
 }
 
-/* Heading */
-.heading {
-  position: relative;
-  width: 354px;
-  height: 80px;
-  margin-left: 10px;
-  top: 115px;
-  text-align: left;
-
-  font-family: 'Karla';
-  font-style: normal;
-  font-weight: 800;
-  font-size: 40px;
-  line-height: 40px;
-  /* or 100% */
-  letter-spacing: -0.025em;
-  /* white */
-  color: #FFFFFF;
-}
-
-/* Supporting text */
 .supporting-text {
-  position: relative;
-  width: 372px;
-  height: 28px;
-  margin-left: 10px;
-  top: 80px;
-
-  /* text-xl/leading-7/font-normal */
   font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
   line-height: 28px;
-  /* identical to box height, or 140% */
-  /* Medium grey */
   color: #D5D4D8;
 }
 
 #password-box {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-around;
-  padding-bottom: 100px;
+  padding-bottom: auto;
   border-bottom: 1px solid #2F3E53;
   padding-top: 10px;
 }
 
-/* Rectangle */
-.pw-generated {
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 180px;
-  height: 39px;
-  top: 200px;
-  background: #273549;
-  border-radius: 6px;
-}
-
-/* Text */
 #password-one {
   font-family: 'Inter';
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 32px;
-  /* identical to box height, or 200% */
   color: #55F991;
 }
 
@@ -129,17 +111,14 @@ h1 span {
   font-weight: 500;
   font-size: 16px;
   line-height: 32px;
-  /* identical to box height, or 200% */
   color: #55F991;
 }
 
 .footer {
-  position: fixed;
   left: 0;
-  top: 0;
   width: 100%;
   background-color: #1C1C1C;
-  color: white;
+  color: #D5D4D8;
   text-align: center;
 }
 
