@@ -1,4 +1,4 @@
-> each project code divided into branches
+> 📌 each project code divided into branches
 
 # DEMO 🕹️
 
